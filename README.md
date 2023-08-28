@@ -1,2 +1,0 @@
-# earnwithxrp.io
-test
