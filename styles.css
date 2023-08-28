@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+h3{
+	 color:rgb(252, 203, 6);
+	 font-size: 30px;
+     background-color: rgba(39, 39, 39, 0.7);
+}
+body,h2{
+	color:rgb(252, 203, 6);
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+
+}
+body , img {
+  border-radius: 50%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links li {
+  list-style: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+body {
+  background-image: url('background.jpg');
+  background-size: 100%;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  
+}
+
+.home-section {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
